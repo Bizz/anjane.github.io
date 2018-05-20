@@ -1,13 +1,7 @@
-@font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Sans'), local('DroidSans'), url('../fonts/droidsans.woff') format('woff');
-}
-html, body{
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body{}
 body, h2{
-	font-family: 'Droid Sans';
+	font-family: 'Roboto', sans-serif;
 }
 .container{
 	padding-top: 15px;
