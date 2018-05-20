@@ -1,62 +1,80 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-html, body{}
-body, h2{
-	font-family: 'Roboto', sans-serif;
-}
-.container{
-	padding-top: 15px;
-}
-.thumbnail{
-	background: none;
-	border: none;
-}
-.left-align{
-	text-align: left;
-}
-.crop{
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	margin: 0 auto;
-	background: #fff;
-}
-.crop img{
-	margin: 0 auto;
-	vertical-align: middle;
-	margin-top: 36px;
-}
-.right-list{
-	text-align: right;
+
+body, h2 {
+    font-family: 'Roboto', sans-serif;
 }
 
-h3{
-	padding-top: 0;
-	margin-top: 0;
+h3 {
+    padding-top: 0;
+    margin-top: 0;
 }
-dl{
-	margin-top: 50px;
+
+dl {
+    margin-top: 50px;
 }
-dd{
-	margin-bottom: 15px;
+
+dd {
+    margin-bottom: 15px;
 }
-a{
-	color: #000;
+
+a {
+    color: #000;
 }
-.mark{
-	color: #be1e2d;
+
+table tr td {
+    vertical-align: top;
+    padding-right: 50px;
 }
-.black{
-	color: #000;
+
+footer {
+    color: #fff;
+    text-align: center;
 }
-table tr td{
-	vertical-align: top;
-	padding-right: 50px;
+
+.container {
+    padding-top: 15px;
 }
-.img-circle{
-	border: 2px solid #000;
+
+.thumbnail {
+    background: none;
+    border: none;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.crop {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.crop img {
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 36px;
+}
+
+.right-list {
+    text-align: right;
+}
+
+.mark {
+    color: #be1e2d;
+}
+
+.black {
+    color: #000;
+}
+
+.img-circle {
+    border: 2px solid #000;
 }
 
 .list-unstyled li:before {
-  content: "-";
-  padding-right: 5px;
+    content: "-";
+    padding-right: 5px;
 }
